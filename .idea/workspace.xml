@@ -5,30 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1013f703-e57f-42f9-8547-ff9feb78709c" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Firestone.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Firestone.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/cn/taskeren/firestone/Firestone.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/cn/taskeren/firestone/core/LineModifier.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/cn/taskeren/firestone/core/Modifier.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/cn/taskeren/firestone/core/plain/PlainTextModifier.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/cn/taskeren/firestone/js/common/Console.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/cn/taskeren/firestone/js/common/JvmTypes.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/cn/taskeren/firestone/js/firestone/FirestoneJs.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/cn/taskeren/firestone/js/firestone/PlainTextModifierScope.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/TestPlainTextModifier.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinScripting.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/js-impl/Firestone.js-impl.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/kts-impl/Firestone.kts-impl.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/kts-impl/Firestone.kts-impl.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/firestone.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js-impl/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js-impl/src/main/kotlin/cn/taskeren/firestone/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js-impl/src/typescript/firestone.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts-impl/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts-impl/src/main/kotlin/cn/taskeren/firestone/kt/ArgParser.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts-impl/src/main/kotlin/cn/taskeren/firestone/kt/Dsl.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts-impl/src/main/kotlin/cn/taskeren/firestone/kt/FirestoneKts.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts-impl/src/main/kotlin/cn/taskeren/firestone/kt/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts-impl/src/test/kotlin/TestMain.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts-impl/src/test/resources/test_main.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/cn/taskeren/firestone/core/FileReplacer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/cn/taskeren/firestone/core/JsonModifier.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/TestJsonModifier.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/cn/taskeren/firestone/Firestone.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/cn/taskeren/firestone/Firestone.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/cn/taskeren/firestone/core/plain/PlainTextModifier.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/cn/taskeren/firestone/core/PlainTextModifier.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/cn/taskeren/firestone/js/common/Console.kt" beforeDir="false" afterPath="$PROJECT_DIR$/js-impl/src/main/kotlin/cn/taskeren/firestone/js/common/Console.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/cn/taskeren/firestone/js/common/JvmTypes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/js-impl/src/main/kotlin/cn/taskeren/firestone/js/common/JvmTypes.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/cn/taskeren/firestone/js/firestone/FirestoneJs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/js-impl/src/main/kotlin/cn/taskeren/firestone/js/firestone/FirestoneJs.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/cn/taskeren/firestone/js/firestone/PlainTextModifierScope.kt" beforeDir="false" afterPath="$PROJECT_DIR$/js-impl/src/main/kotlin/cn/taskeren/firestone/js/firestone/PlainTextModifierScope.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/TestPlainTextModifier.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/TestPlainTextModifier.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +57,9 @@
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/kts-impl">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -56,13 +70,20 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="Firestone" type="f1a62948:ProjectNode" />
+                <item name="kts-impl" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Firestone" type="f1a62948:ProjectNode" />
+                <item name="kts-impl" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="Firestone" type="f1a62948:ProjectNode" />
+                <item name="kts-impl" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="shadow" type="c8890929:TasksNode$1" />
+                <item name="distribution" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -74,17 +95,20 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Object" />
         <option value="Class" />
-        <option value="TypeScript File" />
         <option value="Kotlin Interface" />
-        <option value="Kotlin Class" />
+        <option value="TypeScript File" />
+        <option value="Kotlin Object" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="5ktuergw" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -99,8 +123,10 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -110,24 +136,27 @@
     "project.structure.last.edited": "Global Libraries",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "http.proxy",
-    "ts.external.directory.path": "E:\\Dev2023New\\Firestone\\template\\node_modules\\typescript\\lib",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2023.1.4\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Dev2023New\Firestone\src\main\kotlin\cn\taskeren\firestone\core" />
+      <recent name="E:\Dev2023New\Firestone\js-impl\src" />
+      <recent name="E:\Dev2023New\Firestone\js-impl" />
       <recent name="E:\Dev2023New\Firestone\src\main\kotlin\cn\taskeren\firestone" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="cn.taskeren.firestone.js.firestone" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Firestone [shadowJar]">
-    <configuration name="Firestone [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.Firestone:kts-impl [distZip]">
+    <configuration name="Firestone:kts-impl [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/kts-impl" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -146,10 +175,54 @@
       <ForceTestExec>false</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="Firestone [shadowJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Firestone:kts-impl [distTar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/kts-impl" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="distTar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="Firestone:kts-impl [distZip]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/kts-impl" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="distZip" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="Firestone:kts-impl [shadowJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/kts-impl" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -168,30 +241,6 @@
       <ForceTestExec>false</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="TestPlainTextModifier.testCase1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;TestPlainTextModifier.testCase1&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <configuration name="Run Firestone" type="JetRunConfigurationType">
       <option name="MAIN_CLASS_NAME" value="cn.taskeren.firestone.FirestoneKt" />
       <module name="Firestone.test" />
@@ -202,17 +251,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestMainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestMainKt" />
+      <module name="Firestone.kts-impl.test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Gradle.Firestone [build]" />
-      <item itemvalue="Gradle.Firestone [shadowJar]" />
-      <item itemvalue="Gradle.TestPlainTextModifier.testCase1" />
+      <item itemvalue="Gradle.Firestone:kts-impl [build]" />
+      <item itemvalue="Gradle.Firestone:kts-impl [distTar]" />
+      <item itemvalue="Gradle.Firestone:kts-impl [distZip]" />
+      <item itemvalue="Gradle.Firestone:kts-impl [shadowJar]" />
       <item itemvalue="Kotlin.Run Firestone" />
+      <item itemvalue="Kotlin.TestMainKt" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Firestone [shadowJar]" />
-        <item itemvalue="Gradle.Firestone [build]" />
-        <item itemvalue="Gradle.TestPlainTextModifier.testCase1" />
+        <item itemvalue="Gradle.Firestone:kts-impl [distZip]" />
+        <item itemvalue="Gradle.Firestone:kts-impl [distTar]" />
+        <item itemvalue="Gradle.Firestone:kts-impl [build]" />
+        <item itemvalue="Kotlin.TestMainKt" />
+        <item itemvalue="Gradle.Firestone:kts-impl [shadowJar]" />
       </list>
     </recent_temporary>
   </component>
@@ -225,8 +285,23 @@
       <option name="presentableId" value="Default" />
       <updated>1691319715135</updated>
       <workItem from="1691319716255" duration="325000" />
-      <workItem from="1691320088421" duration="18690000" />
+      <workItem from="1691320088421" duration="19330000" />
+      <workItem from="1691389752585" duration="3028000" />
+      <workItem from="1691593662452" duration="1370000" />
+      <workItem from="1697200547829" duration="4304000" />
+      <workItem from="1697349109686" duration="34000" />
+      <workItem from="1697353399111" duration="784000" />
+      <workItem from="1697537306189" duration="14046000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <option name="closed" value="true" />
+      <created>1691350647834</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691350647834</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

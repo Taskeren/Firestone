@@ -1,4 +1,4 @@
-import cn.taskeren.firestone.core.plain.PlainTextModifier
+import cn.taskeren.firestone.core.PlainTextModifier
 import kotlin.test.Test
 import kotlin.test.assertEquals
 

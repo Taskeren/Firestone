@@ -1,7 +1,7 @@
 package cn.taskeren.firestone.js.firestone
 
-import cn.taskeren.firestone.core.plain.PlainTextModifier
-import cn.taskeren.firestone.core.plain.PlainTextModifier.Rule
+import cn.taskeren.firestone.core.PlainTextModifier
+import cn.taskeren.firestone.core.PlainTextModifier.Rule
 import cn.taskeren.firestone.js.common.JavaFunction
 
 @Suppress("unused")
