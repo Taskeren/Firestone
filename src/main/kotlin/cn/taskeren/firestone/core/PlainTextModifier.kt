@@ -1,3 +1,5 @@
+@file:Suppress("unused")
+
 package cn.taskeren.firestone.core
 
 class PlainTextModifier : LineModifier {

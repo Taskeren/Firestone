@@ -4,42 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1013f703-e57f-42f9-8547-ff9feb78709c" name="Changes" comment="refactor">
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinScripting.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/js-impl/Firestone.js-impl.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/kts-impl/Firestone.kts-impl.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/kts-impl/Firestone.kts-impl.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/firestone.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js-impl/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js-impl/src/main/kotlin/cn/taskeren/firestone/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js-impl/src/typescript/firestone.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kts-impl/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kts-impl/src/main/kotlin/cn/taskeren/firestone/kt/ArgParser.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kts-impl/src/main/kotlin/cn/taskeren/firestone/kt/Dsl.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kts-impl/src/main/kotlin/cn/taskeren/firestone/kt/FirestoneKts.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kts-impl/src/main/kotlin/cn/taskeren/firestone/kt/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kts-impl/src/test/kotlin/TestMain.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kts-impl/src/test/resources/test_main.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/cn/taskeren/firestone/core/FileReplacer.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/cn/taskeren/firestone/core/JsonModifier.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/TestJsonModifier.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="1013f703-e57f-42f9-8547-ff9feb78709c" name="Changes" comment="remove ArgParser">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/cn/taskeren/firestone/Firestone.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/cn/taskeren/firestone/Firestone.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/cn/taskeren/firestone/core/plain/PlainTextModifier.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/cn/taskeren/firestone/core/PlainTextModifier.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/cn/taskeren/firestone/js/common/Console.kt" beforeDir="false" afterPath="$PROJECT_DIR$/js-impl/src/main/kotlin/cn/taskeren/firestone/js/common/Console.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/cn/taskeren/firestone/js/common/JvmTypes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/js-impl/src/main/kotlin/cn/taskeren/firestone/js/common/JvmTypes.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/cn/taskeren/firestone/js/firestone/FirestoneJs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/js-impl/src/main/kotlin/cn/taskeren/firestone/js/firestone/FirestoneJs.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/cn/taskeren/firestone/js/firestone/PlainTextModifierScope.kt" beforeDir="false" afterPath="$PROJECT_DIR$/js-impl/src/main/kotlin/cn/taskeren/firestone/js/firestone/PlainTextModifierScope.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/TestPlainTextModifier.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/TestPlainTextModifier.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/cn/taskeren/firestone/core/PlainTextModifier.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/cn/taskeren/firestone/core/PlainTextModifier.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -291,7 +259,7 @@
       <workItem from="1697200547829" duration="4304000" />
       <workItem from="1697349109686" duration="34000" />
       <workItem from="1697353399111" duration="784000" />
-      <workItem from="1697537306189" duration="14075000" />
+      <workItem from="1697537306189" duration="14493000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -301,7 +269,23 @@
       <option name="project" value="LOCAL" />
       <updated>1691350647834</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="refactor">
+      <option name="closed" value="true" />
+      <created>1697556339481</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1697556339481</updated>
+    </task>
+    <task id="LOCAL-00003" summary="remove ArgParser">
+      <option name="closed" value="true" />
+      <created>1697556375506</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697556375506</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,7 +294,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor" />
+    <MESSAGE value="remove ArgParser" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove ArgParser" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">

@@ -24,7 +24,7 @@ script to do all the things you want, and run it with Firestone.
 
 | Argument                | Description                                                                                                              |
 |-------------------------|--------------------------------------------------------------------------------------------------------------------------|
-| the-script.kts          | The script file you want to run.<br/>It also support URLs with `url:` prefix, like `uri:http://example.com/example.kts`. |
+| the-script.kts          | The script file you want to run.<br/>It also support URLs with `url:` prefix, like `url:http://example.com/example.kts`. |
 | `--allow-remote-script` | Allow directly run the remote downloaded scripts. Be aware, it can be malicious!                                         |
 
 ## Writing scripts
