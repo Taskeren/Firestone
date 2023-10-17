@@ -1,4 +1,4 @@
-<div style="text-align: center">
+<div align="center">
 <h1>Firestone</h1>
 <h5>Patching things more effective</h5>
 <hr>
