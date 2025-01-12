@@ -20,9 +20,10 @@ repositories {
 dependencies {
 	api(rootProject)
 
-	runtimeOnly("org.jetbrains.kotlin:kotlin-scripting-jsr223:1.9.0")
-	runtimeOnly("org.jetbrains.kotlin:kotlin-script-runtime:1.9.0")
-	testImplementation(kotlin("script-runtime"))
+	// runtimeOnly("org.jetbrains.kotlin:kotlin-scripting-jsr223:1.9.0")
+	// runtimeOnly("org.jetbrains.kotlin:kotlin-script-runtime:1.9.0")
+	implementation(kotlin("script-runtime"))
+	implementation(kotlin("scripting-jsr223"))
 }
 
 tasks.shadowJar {

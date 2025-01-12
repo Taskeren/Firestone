@@ -1,5 +1,5 @@
 plugins {
-	kotlin("jvm") version "1.9.0"
+	kotlin("jvm") version "2.1.0"
 }
 
 java {
@@ -22,6 +22,9 @@ dependencies {
 
 	// support for json
 	api("com.google.code.gson:gson:2.10.1")
+
+	// annotations
+	implementation("org.jetbrains:annotations:24.0.0")
 
 	implementation(kotlin("test"))
 }
